@@ -1,0 +1,338 @@
+[21:26:54] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:26:54] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[21:26:54] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[21:26:54] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[21:26:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.simibubi.create.compat.trainmap.JourneyTrainMap
+[21:26:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[21:26:54] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[21:26:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:26:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:26:54] [Render thread/INFO] [?] Version: JourneyMap 1.21.1-6.0.0-beta.54, built with neoforge 21.1.197
+neoforge: 21.1.228
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.54, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.54, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.0-beta.54, zoomLevel=512, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.54, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.54, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.54, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[21:26:54] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 343,88ms
+[21:26:56] [Render thread/INFO] [JourneymapClientNeoForge] Journeymap PostInit
+[21:26:56] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[21:26:56] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54+neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54+neoforge.jar
+[21:26:56] [Render thread/DEBUG] [FileHandler] ZipFilePath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar zipEntryName:assets/journeymap/theme/victorian_ destDir:./journeymap/icon/theme/victorian_ overWrite:true fromPath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+[21:26:56] [Render thread/WARN] [FileHandler] Failed getting ZipFile for mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar, attempting to use /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar as a fallback on OS:LINUX.
+[21:26:56] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar to ./journeymap/icon/theme/victorian_:
+java.nio.file.NoSuchFileException: /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171) ~[?:?]
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:?]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[?:?]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[?:?]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:151) ~[?:?]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:621) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:560) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:518) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClient.postInit(JourneymapClient.java:187) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClientNeoForge.lambda$loadCompleteEvent$1(JourneymapClientNeoForge.java:68) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:67) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:62) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.228.jar%23177!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[21:26:56] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54+neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54+neoforge.jar
+[21:26:56] [Render thread/DEBUG] [FileHandler] ZipFilePath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar zipEntryName:assets/journeymap/theme/flat destDir:./journeymap/icon/theme/flat overWrite:true fromPath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+[21:26:56] [Render thread/WARN] [FileHandler] Failed getting ZipFile for mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar, attempting to use /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar as a fallback on OS:LINUX.
+[21:26:56] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar to ./journeymap/icon/theme/flat:
+java.nio.file.NoSuchFileException: /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171) ~[?:?]
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:?]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[?:?]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[?:?]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:151) ~[?:?]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:621) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:560) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:518) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClient.postInit(JourneymapClient.java:187) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClientNeoForge.lambda$loadCompleteEvent$1(JourneymapClientNeoForge.java:68) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:67) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:62) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.228.jar%23177!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[21:26:56] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54+neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54+neoforge.jar
+[21:26:56] [Render thread/DEBUG] [FileHandler] ZipFilePath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar zipEntryName:assets/journeymap/theme/vault_flat destDir:./journeymap/icon/theme/vault_flat overWrite:true fromPath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+[21:26:56] [Render thread/WARN] [FileHandler] Failed getting ZipFile for mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar, attempting to use /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar as a fallback on OS:LINUX.
+[21:26:56] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar to ./journeymap/icon/theme/vault_flat:
+java.nio.file.NoSuchFileException: /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171) ~[?:?]
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:?]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[?:?]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[?:?]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:151) ~[?:?]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:621) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:560) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:518) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClient.postInit(JourneymapClient.java:187) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClientNeoForge.lambda$loadCompleteEvent$1(JourneymapClientNeoForge.java:68) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:67) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:62) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.228.jar%23177!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[21:26:56] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54+neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54+neoforge.jar
+[21:26:56] [Render thread/DEBUG] [FileHandler] ZipFilePath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar zipEntryName:assets/journeymap/theme/vault destDir:./journeymap/icon/theme/vault overWrite:true fromPath:mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+[21:26:56] [Render thread/WARN] [FileHandler] Failed getting ZipFile for mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar, attempting to use /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar as a fallback on OS:LINUX.
+[21:26:56] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar to ./journeymap/icon/theme/vault:
+java.nio.file.NoSuchFileException: /mnt/9248F9D048F9B359/gradle/caches/modules-2/files-2.1/maven.modrinth/journeymap/1.21.1-6.0.0-beta.54 neoforge/c18ead3d7e536cbf3f44e4ee487cb5dd3c57e63a/journeymap-1.21.1-6.0.0-beta.54 neoforge.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171) ~[?:?]
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:?]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853) ~[?:?]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[?:?]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:151) ~[?:?]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:621) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:560) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.FileHandler.copyResources(FileHandler.java:518) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClient.postInit(JourneymapClient.java:187) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at TRANSFORMER/journeymap@1.21.1-6.0.0-beta.54/journeymap.client.JourneymapClientNeoForge.lambda$loadCompleteEvent$1(JourneymapClientNeoForge.java:68) ~[journeymap-1.21.1-6.0.0-beta.54+neoforge.jar%23195!/:1.21.1-6.0.0-beta.54]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:67) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:62) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:47) ~[loader-4.0.42.jar%23134!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.228.jar%23177!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.228.jar%23177!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[21:26:57] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[21:26:57] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 159,67ms
+[21:26:57] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 11ms for: Default Palette
+[21:27:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[21:27:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[21:27:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[21:27:03] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[21:27:03] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:27:03] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[21:27:04] [Server thread/INFO] [NeoForgeConfig] Loading JourneyMap Forge Configs
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:27:08] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[21:27:10] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[21:27:10] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:27:10] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:27:10] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[21:27:10] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[21:27:10] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[21:27:10] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[21:27:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: /mnt/9248F9D048F9B359/мод/SableResistantBorders/run/journeymap/colorpalette.json
+[21:27:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: /mnt/9248F9D048F9B359/мод/SableResistantBorders/run/journeymap/data/sp/New World/colorpalette.json
+[21:27:10] [Render thread/INFO] [JourneymapClient] Mapping started in ./journeymap/data/sp/New World/overworld. Memory: 1908MB total, 865MB free 
+[21:27:10] [Render thread/INFO] [ChatLog] JourneyMap: Press [О]
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[21:27:10] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false

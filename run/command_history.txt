@@ -1,0 +1,26 @@
+/worldborder set 100
+/sable spawn block
+/worldborder set 200
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/sable remove @e
+/sable spawn block
+/time set day
+/worldborder damage amount 0
+/time set day
+/sable spawn block
+/sable teleport @e ~ ~ ~
+/summon minecraft:wolf
+/time set day
+/worldborder set 100
